@@ -1,18 +1,18 @@
 /*  your css code here. If applicable */
-#box{
+.class{
 	width:100px;
 	height:100px;
-	background:red;
+	background-color:red;
 	animation:pulse 1s ease-in-out infinite;
 }
 @keyframes pulse{
 	0% {
-		transform:scale(0.9);
-	}
-	50%{
 		transform:scale(1);
 	}
+	50%{
+		transform:scale(1.2);
+	}
 	100%{
-		transform:scale(0.9);
+		transform:scale(1);
 	}
 }
